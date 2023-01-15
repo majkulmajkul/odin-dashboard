@@ -1,0 +1,20 @@
+.profile-pic-s {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.profile-pic-m {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.custom-button{
+    background-color: #0ea5e9;
+    color: #f9fafb;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+}
