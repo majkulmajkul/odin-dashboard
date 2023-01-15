@@ -2,7 +2,12 @@ import "./Header.css";
 import { IoSearch, IoNotificationsOutline } from "react-icons/io5";
 import { Button, ProfilePic } from "./Utils";
 
+import dogImage from './assets/avatars/dog.png'
+
 export default function Header() {
+
+
+
     return (
         <div className="main-header">
             <div className="header-line-one">
@@ -18,14 +23,14 @@ export default function Header() {
                 <ProfilePic
                     className="profile-pic-small"
                     size="s"
-                    url="https://thumbs.dreamstime.com/b/illustration-man-cartoon-head-profile-pattern-pop-art-comic-style-side-view-pop-art-92019162.jpg"
+                    url={dogImage}
                 />
                 <h3 className="full-name">Morgan Oakley</h3>
             </div>
             <div className="header-line-two">
                 <ProfilePic
                     size="m"
-                    url="https://thumbs.dreamstime.com/b/illustration-man-cartoon-head-profile-pattern-pop-art-comic-style-side-view-pop-art-92019162.jpg"
+                    url={dogImage}
                 />
                 <div>
                     <p>Hi there,</p>

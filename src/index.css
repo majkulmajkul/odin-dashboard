@@ -28,8 +28,11 @@ body{
 }
 
 .main-sidebar {
-  background-color: blue;
+  background-color: #0ea5e9;
   grid-area: 1 / 1 / -1 / 2;
+  color: #f9fafb;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-projects{
