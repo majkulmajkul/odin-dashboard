@@ -1,0 +1,5 @@
+.project-card{
+    display: grid;
+    grid-template-rows: 0.5fr 1.5fr 0.5fr;
+    background-color: #f9fafb;
+}
