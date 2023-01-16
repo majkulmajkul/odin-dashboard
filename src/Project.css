@@ -5,6 +5,7 @@
     padding: 1rem 1rem 0rem 1rem;
     border-radius: 0.5rem;
     border-left: 0.5rem solid #fbbf24;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .project-card>h5{

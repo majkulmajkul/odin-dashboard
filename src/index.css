@@ -25,6 +25,9 @@ body{
   justify-content: center;
   padding-left: 2rem;
   padding-right: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  position: relative;
+  z-index: 10;
 }
 
 .main-sidebar {
@@ -48,9 +51,11 @@ body{
 .main-announcements{
   background-color: #e2e8f0;
   grid-area: 2 / 3 / 3 / -1;
+  padding: 0rem 2rem 2rem 0rem;
 }
 
 .main-trending{
   background-color: #e2e8f0;
   grid-area: 3 / 3 / -1 / -1;
+  padding: 0rem 2rem 2rem 0rem;
 }

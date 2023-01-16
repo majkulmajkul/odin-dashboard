@@ -1,0 +1,10 @@
+.user-card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-card-names>p{
+    margin: 0;
+    padding:  0;
+}
