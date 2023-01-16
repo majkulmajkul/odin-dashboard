@@ -1,5 +1,25 @@
 .project-card{
     display: grid;
-    grid-template-rows: 0.5fr 1.5fr 0.5fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
     background-color: #f9fafb;
+    padding: 1rem 1rem 0rem 1rem;
+    border-radius: 0.5rem;
+    border-left: 0.5rem solid #fbbf24;
+}
+
+.project-card>h5{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.project-card>p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #4b5563;
+}
+
+.project-card-icons{
+    justify-self: end;
+    display: flex;
+    gap: 1rem;
 }
