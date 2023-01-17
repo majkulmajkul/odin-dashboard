@@ -1,7 +1,11 @@
 .generic-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #f9fafb;
     border-radius: 0.5rem;
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     
 }
+

@@ -6,8 +6,8 @@ export default function UserCard(props) {
         <div className="user-card">
             <ProfilePic size="m" url={props.url} />
             <div className="user-card-names">
-                <p><strong>{props.handle}</strong></p>
-                <p>{props.name}</p>
+                <p className="user-card-handle"><strong>{props.handle}</strong></p>
+                <p className="user-card-name">{props.name}</p>
             </div>
         </div>
 

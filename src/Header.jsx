@@ -12,13 +12,13 @@ export default function Header() {
         <div className="main-header">
             <div className="header-line-one">
                 <div className="search-icon">
-                    <IoSearch />
+                    <IoSearch size="1.2rem" />
                 </div>
                 <div className="search-bar">
                     <input type="text" />
                 </div>
                 <div className="notifications-icon">
-                    <IoNotificationsOutline />
+                    <IoNotificationsOutline size="1.2rem" />
                 </div>
                 <ProfilePic
                     className="profile-pic-small"
