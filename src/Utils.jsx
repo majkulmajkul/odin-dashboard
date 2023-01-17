@@ -15,5 +15,20 @@ function ProfilePic(props) {
     )
 }
 
+function AnnouncementArticle(props) {
+    return (
+        <div className="announcement-article">
+            <p><strong>{props.title}</strong></p>
+            <p>{props.text}</p>
+        </div>
+    )
+}
 
-export { Button, ProfilePic }
+function Divider() {
+    return (
+        <div className="divider"></div>
+    )
+}
+
+
+export { Button, ProfilePic, AnnouncementArticle, Divider }

@@ -18,3 +18,14 @@
     border: none;
     border-radius: 1rem;
 }
+
+.divider{
+    margin-top: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 0.5rem;
+}
+
+.announcement-article>p{
+    margin: 0;
+    font-size: 0.8rem;
+}

@@ -16,8 +16,6 @@ export default function Trending() {
                 <UserCard url={monkeyImage} handle={"@Monkey"} name={"Hans Dull"} />
                 <UserCard url={henImage} handle={"@Hen"} name={"Anders Andersson"} />
             </GenericContainer>
-
-
         </div>
     )
 }

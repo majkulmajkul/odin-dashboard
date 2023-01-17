@@ -51,11 +51,21 @@ body{
 .main-announcements{
   background-color: #e2e8f0;
   grid-area: 2 / 3 / 3 / -1;
-  padding: 0rem 2rem 2rem 0rem;
+  padding: 2rem 2rem 2rem 0rem;
+  
+}
+
+.main-announcements>h4{
+  margin-top: 0;
 }
 
 .main-trending{
   background-color: #e2e8f0;
   grid-area: 3 / 3 / -1 / -1;
   padding: 0rem 2rem 2rem 0rem;
+
+}
+
+.main-trending>h4{
+  margin-top: 0;
 }
